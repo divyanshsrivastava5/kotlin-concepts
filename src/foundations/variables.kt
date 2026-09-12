@@ -6,7 +6,7 @@ fun main() {
     b = 12 // should be of same type with which it was initialized
     print(a + b)
     val c = null
-    lateinit var d: String
+    lateinit var d: String // primitive types can not be market as lateinit and also not on val
     val e: Double = 12.0
 
     // String interpolation
